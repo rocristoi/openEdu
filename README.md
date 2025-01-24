@@ -1,6 +1,6 @@
 # ![openEduLogo](https://i.imgur.com/mb1bGcj.png)
 
-Welcome to the frontend repository for Openedu, a web application designed for creating completely free digital classbooks. Openedu is tailored primarily for Romania but is versatile enough to be used in all countries that employ a 1-10 grade system. This platform is designed with three types of users in mind: Admins, Teachers, and Students.
+OpenEdu is a web application designed for creating completely free digital classbooks for schools. It is tailored primarily for Romania but is versatile enough to be used in all countries that employ a 1-10 grade system. This platform is designed with three types of users in mind: Admins, Teachers, and Students.
 
 ## Main Project Description
 
