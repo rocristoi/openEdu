@@ -1,0 +1,36 @@
+.border-beam {
+    position: relative;
+  }
+  
+  @property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  .border-beam::after, .border-beam::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), transparent,rgba(0,191,98,255));
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1; 
+    border-radius: 20px;
+    padding: 2px;
+    box-sizing: content-box;
+    animation: 10s spin linear infinite;
+  }
+  .border-beam::before {
+    filter: blur(1.5rem);
+    opacity: 1;
+  }
+
+  @keyframes spin {
+    from{
+        --angle: 0deg;
+    } to {
+        --angle: 360deg;
+    }
+  }
