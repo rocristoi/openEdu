@@ -40,6 +40,6 @@ We invite and encourage contributions from the community! If you are interested 
 
 ## License
 
-Openedu is open-sourced under the MIT License.
+Openedu is open-sourced under the Apache License.
 
 *For live preview and additional information, please visit our [website](https://openedu.live).*
